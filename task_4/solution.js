@@ -3,6 +3,7 @@ function parseProducts(json) {
     let products = data.products;
     return products;
 }
+
 function renderProductsCards(json){
     clearProducts();
     products = parseProducts(json);
